@@ -6,6 +6,7 @@ module.exports = function(environment) {
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
+
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -20,6 +21,18 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    firebase: {
+    apiKey: 'AIzaSyB7gx1Q2ZKsDreF5J0Qmz5ZrlrVkQEgKJo',
+    authDomain: 'vapereviews-61335.firebaseapp.com',
+    databaseURL: 'https://vapereviews-61335.firebaseio.com',
+    storageBucket: 'vapereviews-61335.appspot.com',
+    messagingSenderId: '251429500745'
+    },
+
+    torii: {
+      sessionServiceName: 'session'
     }
   };
 

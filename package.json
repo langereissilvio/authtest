@@ -37,7 +37,9 @@
     "ember-resolver": "^2.0.3",
     "ember-source": "~2.11.0",
     "ember-welcome-page": "^2.0.2",
-    "loader.js": "^4.0.10"
+    "emberfire": "2.0.6",
+    "loader.js": "^4.0.10",
+    "torii": "0.8.2"
   },
   "engines": {
     "node": ">= 0.12.0"
